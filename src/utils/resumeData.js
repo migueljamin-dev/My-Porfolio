@@ -3,7 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
 
 export default {
-    name:'Migz is coding',
+    name:'Miguel Jamin',
     title:'Front-End developer',
 
     birthday: 'July 13, 1996',

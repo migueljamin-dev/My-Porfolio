@@ -20,9 +20,11 @@ function App() {
 
         </Grid>
 
-        <Grid item xs style={{background:'blue'}}>
-          <Header />
-          <Router>
+        <Grid item xs>
+    
+         <Router>
+         <Header />
+         <div className='main-content container-shadow'>
             <Switch>
             <Route path='/portfolio'>
              <Portfolio />
@@ -31,7 +33,7 @@ function App() {
             <Resume />
             </Route>
             </Switch>
-
+            </div>
           </Router>
           
           <Footer />
