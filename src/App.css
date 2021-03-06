@@ -9,6 +9,26 @@
 
 }
 
+.top-30{
+  margin-top: 30px !important;
+
+}
+
+.p-30{
+  padding: 30px !important;
+}
+
+.mb-30{
+  margin-bottom:  30px !important;
+}
+
+.pb-45{
+  padding-bottom: 45px !important;
+
+}
+/* End of Margin and Padding */
+
+
 @media(max-width:991px){
   .top-60{
     margin-top: 30px !important;
@@ -31,3 +51,30 @@
   padding: 30px;
 }
 
+.section-title {
+  position: relative;
+  display: inline-block;
+  padding:0 3px;
+}
+
+.section-title .section-title-text {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+}
+
+.section-title span {
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
+
+}
+
+.graybg{
+  background-color: #fafafa;
+}

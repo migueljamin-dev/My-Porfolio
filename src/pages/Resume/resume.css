@@ -1,0 +1,100 @@
+/* about me */
+
+.aboutme-text{
+    color: darkslategray;
+    font: smaller;
+    line-height: 22px;
+    white-space: pre-line;
+}
+
+/* End of About me section */
+
+/* -------------------------- */
+
+/* Timeline Section */
+
+.resumeTimeline .timeline-content .timeline-title{
+    font-size:16px !important;
+    font-weight: 500 !important;
+}
+
+.resumeTimeline .timeline-content .timeline-date{
+    color:darkslategray;
+}
+.resumeTimeline .timeline-content .timeline-description {
+    color: gray;
+    font-size: small;
+    margin-top: 6px;
+}
+
+/* End Timeline */
+
+/* -------------------------- */
+
+/* Start Service */
+
+.service {
+    text-align: center;
+    height: 100%;
+}
+
+.service .service-title{
+    font-size: 16px !important;
+    line-height: 35px !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+
+.service .service-description{
+    color: #989898 !important;
+    border-color: var(--main-color) !important;
+    margin-right:5px o !important;
+    text-align: center;
+}
+
+.service-icon > .MuiSvgIcon-root {
+    font-size: 46px !important;
+    margin-left: 0  !important;
+    font-weight: 300 !important;
+    color:darkslategray !important;
+}
+
+/* End Service */
+
+
+/* -------------------------- */
+
+/* Start Skills */
+.skill {
+    border-radius: 8px;
+    padding:20px;
+
+    box-shadow: 0 0 48px 0 rgba(4, 6, 4, 0.08)  !important;
+    min-height: 186px;
+    height: 100%;
+}
+
+.skill .skill-title{
+    font-size:14px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+
+}
+
+.skill .skill-description {
+    display: flex;
+    align-items: center;
+    color:#989898 !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+}
+
+
+.skill .skill-description .timeline-dot {
+    color:black !important;
+    border-color: var(--main-color) !important;
+    padding: 2px !important;
+    margin-right: 5px !important;
+}
+
+/* End Skills */
