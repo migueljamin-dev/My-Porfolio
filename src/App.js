@@ -15,12 +15,7 @@ function App() {
   return (
     <Container className={'top-60'}>
       <Grid container spacing={7}>
-        <Grid item xs={12} sm={12} md={4} lg={3} >
-         <Profile />
-
-        </Grid>
-
-        <Grid item xs>
+        <Grid item xs  >
     
          <Router>
          <Header />
@@ -35,9 +30,16 @@ function App() {
             </Switch>
             </div>
           </Router>
-          
-          <Footer />
+         
         </Grid>
+
+        <Grid item xs={12} sm={12} md={4} lg={3}>
+    
+        <Profile />
+          
+        <Footer />
+        </Grid>
+        
       </Grid>
 
     </Container>

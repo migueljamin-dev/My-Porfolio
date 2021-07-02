@@ -1,11 +1,11 @@
 import React from 'react';
-import {Button,Form,FormControl,Nav,Navbar,NavDropdown } from 'react-bootstrap';
+import {Nav,Navbar} from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
- import {Telegram,SchoolRounded,GitHub,LinkedIn,Facebook,WorkRounded,HomeRounded} from '@material-ui/icons';
+ import {Telegram,HomeRounded} from '@material-ui/icons';
 
-import {NavLink,Link,withRouter} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 import resumeData from '../../utils/resumeData';
@@ -16,8 +16,6 @@ import './header.css'
 const Header = (props) => {
 
     const pathName = props?.location?.pathname;
-   
-    {console.log(pathName)}
 
     return (    
         <Navbar  expand="lg" sticky='top' className='header'>
@@ -34,7 +32,7 @@ const Header = (props) => {
                 <Nav className='header-left'>
                      {/* resume link */}
                     <Nav.Link as={NavLink} to='/'
-                     className={(pathName == '/') ? 'header-link-active' : 'header-link'}>
+                     className={(pathName === '/') ? 'header-link-active' : 'header-link'}>
                         Resume
                     </Nav.Link>
           
@@ -44,13 +42,13 @@ const Header = (props) => {
                     as={NavLink} 
                     to='/portfolio' 
                     className= {
-                        (pathName == '/portfolio') ? 'header-link-active' : 'header-link'}>
+                        (pathName === '/portfolio') ? 'header-link-active' : 'header-link'}>
                         Portfolio
                     </Nav.Link>
                 </Nav>
                 <div className='header-right'>
                     {Object.keys(resumeData.social).map(key =>(
-                        <a href={resumeData.social[key].link} target='_blank'>
+                        <a key={key} href={resumeData.social[key].link} target='_blank'>
                             {resumeData.social[key].icon}
                             </a>
                     ))}

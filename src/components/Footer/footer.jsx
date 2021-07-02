@@ -12,8 +12,6 @@ const Footer = () => {
          </div>
          <div className="footer-right">
             <Typography className="footer-copyright">
-                Design and Developed -<a href="/" target='_blank'> Miguel Jamin</a> 
-                <br/>
                 Clone idea from <a href="https://themeforest.net/user/tavoline" target='_blank'>Travoline</a>
             </Typography>
          </div>

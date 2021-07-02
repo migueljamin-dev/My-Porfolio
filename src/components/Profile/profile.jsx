@@ -7,7 +7,6 @@ import React from 'react';
 import resumeData from '../../utils/resumeData'
 
 import './profile.css';
-import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import CustomButton from "../Button/button";
@@ -45,7 +44,7 @@ const Profile = () => {
                     <CustomTimelineItem title={'Title'} text={resumeData.title}/>
 
                     {Object.keys(resumeData.social).map(key => (
-                        <CustomTimelineItem title={key} text={resumeData.social[key].text} link={resumeData.social[key].link}/>
+                        <CustomTimelineItem key={key} title={key} text={resumeData.social[key].text} link={resumeData.social[key].link}/>
                     ))}
                    
                 </CustomTimeline>

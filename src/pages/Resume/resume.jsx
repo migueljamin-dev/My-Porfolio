@@ -5,7 +5,7 @@ import SchoolIcon from '@material-ui/icons/School';
 import Grid from '@material-ui/core/Grid';
 
 import resumeData from '../../utils/resumeData';
-import './resume.css'
+import './resume.css';
 import { Icon, Typography,Paper } from '@material-ui/core';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';

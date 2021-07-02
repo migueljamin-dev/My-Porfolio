@@ -1,7 +1,11 @@
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
+import  Language  from "@material-ui/icons/Language";
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import { WebOutlined } from "@material-ui/icons";
+
+
 
 export default {
     name:'Miguel Jamin',
@@ -91,4 +95,90 @@ export default {
         },
     ],
 
+    projects:[
+        {
+            tag:'React',
+            image:'../../assets/images/Pimage.jpg',
+            title:'Project 1',
+            caption:'Short Description',
+            description:'This is my project description please fill it in.',
+            links:[
+                {link:'http://google.com',icon: <YouTubeIcon />},
+                {link:'http://google.com',icon: <GithubIcon />},
+                {link:'http://google.com',icon: <Language />},
+
+            ]
+        },
+
+        {
+            tag:'React',
+            image:'../assets/images/bg-porftolio.jpg',
+            title:'Project 2',
+            caption:'Short Description',
+            description:'This is my project description please fill it in.',
+            links:[
+                {link:'http://google.com',icon: <YouTubeIcon />},
+                {link:'http://google.com',icon: <GithubIcon />},
+                {link:'http://google.com',icon: <Language />},
+
+            ]
+        },
+
+        {
+            tag:'CodeIgniter',
+            image:'../../assets/images/bg-portfolio.jpg',
+            title:'Project 4',
+            caption:'Short Description',
+            description:'This is my project description please fill it in.',
+            links:[
+                {link:'http://google.com',icon: <YouTubeIcon />},
+                {link:'http://google.com',icon: <GithubIcon />},
+                {link:'http://google.com',icon: <Language />},
+
+            ]
+        },
+
+        {
+            tag:'CodeIgniter',
+            image:'https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg',
+            title:'Project 8',
+            caption:'Short Description',
+            description:'This is my project description please fill it in.',
+            links:[
+                {link:'http://google.com',icon: <YouTubeIcon />},
+                {link:'http://google.com',icon: <GithubIcon />},
+                {link:'http://google.com',icon: <Language />},
+
+            ]
+        },
+
+        {
+            tag:'NodeJs',
+            image:'https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg',
+            title:'Project 3',
+            caption:'Short Description',
+            description:'This is my project description please fill it in.',
+            links:[
+                {link:'http://google.com',icon: <YouTubeIcon />},
+                {link:'http://google.com',icon: <GithubIcon />},
+                {link:'http://google.com',icon: <Language />},
+
+            ]
+        },
+
+        
+        {
+            tag:'NodeJs',
+            image:'../../assets/images/bg-portfolio.jpg',
+            title:'Project 9',
+            caption:'Short Description',
+            description:'This is my project description please fill it in.',
+            links:[
+                {link:'http://google.com',icon: <YouTubeIcon />},
+                {link:'http://google.com',icon: <GithubIcon />},
+                {link:'http://google.com',icon: <Language />},
+
+            ]
+        }
+    ]
 }
