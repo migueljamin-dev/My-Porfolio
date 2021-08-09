@@ -45,6 +45,15 @@ const Header = (props) => {
                         (pathName === '/portfolio') ? 'header-link-active' : 'header-link'}>
                         Portfolio
                     </Nav.Link>
+                    
+                    {/* Certificate */}
+                    <Nav.Link 
+                    as={NavLink} 
+                    to='/portfolio' 
+                    className= {
+                        (pathName === '/') ? 'header-link-active' : 'header-link'}>
+                        Certificate -- still working
+                    </Nav.Link>
                 </Nav>
                 <div className='header-right'>
                     {Object.keys(resumeData.social).map(key =>(

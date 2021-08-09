@@ -6,6 +6,16 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import LinkIcon from '@material-ui/icons/Link';
 import { WebOutlined } from "@material-ui/icons";
 
+// pictures
+import student_info from '../assets/images/student_info.png'
+import CI from '../assets/images/CI.jpg'
+import crudnodeejs from '../assets/images/crudnodeejs.png'
+import htmlCSS from '../assets/images/htmlCSS.jpg'
+import real_state from '../assets/images/real_state.png'
+import NodeSocket from '../assets/images/NodeSocket.jpg'
+import ReactApi from '../assets/images/ReactAPI.jpg'
+import Boostrap from '../assets/images/Boostrap.jpg'
+
 
 
 
@@ -79,7 +89,7 @@ export default {
     services: [
         {
             title:'Web Development',
-            description:'I have a been new to Web dev for 6 months',
+            description:'I have a been new to Web dev for 3 months',
             icon:<WebOutlined />
         },
         {
@@ -109,10 +119,11 @@ export default {
         },
     ],
 
+
     projects:[
         {
             tag:'HTML/CSS',
-            image:'https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.6435-9/213800256_4338680736171290_1840621317389864153_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeECGzjUSCKFIK_kzEJXX8ThrmYWCAMZZpOuZhYIAxlmkyl3H6OviaraOo06zy3jfMnvo9tZPa9DSuCyVy2FTUJe&_nc_ohc=SbHov11aJYEAX8eibOH&_nc_ht=scontent.fcrk1-1.fna&oh=2fde26afc3428a503f8097911b626e3b&oe=60E59D4B',
+            image:htmlCSS,
             title:'Exam in Village88',
             caption:'Pure HTML CSS',
             description:'This is 4 hours Clone sample website',
@@ -126,7 +137,21 @@ export default {
 
         {
             tag:'HTML/CSS',
-            image:'https://scontent.fcrk1-3.fna.fbcdn.net/v/t1.6435-9/212168630_4338698859502811_215668733032714948_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeGqyUq1IU7rJNMBRPGiFPN7RIhODjLYfiZEiE4OMth-Jg3yFpRrezFgpiR4iabk3WqgXDBj2WEkPzAZ4T3e3vRV&_nc_ohc=9dsbbARe6moAX-igUWd&_nc_ht=scontent.fcrk1-3.fna&oh=7856010eda72e842d9a7885e9007096f&oe=60E704C0',
+            image:Boostrap,
+            title:'Boostrap',
+            caption:'HTML CSS Boostrap',
+            description:'Boostrap that take in coursera',
+            links:[
+                {link:'https://quizzical-haibt-8d0a91.netlify.app/',icon: <LinkIcon />},
+                {link:'https://github.com/migueljamin-dev',icon: <GithubIcon />},
+                {link:'#',icon: <Language />},
+
+            ]
+        },
+
+        {
+            tag:'HTML/CSS',
+            image:real_state,
             title:'Real State',
             caption:'HTML CSS Javascript',
             description:'',
@@ -140,7 +165,7 @@ export default {
 
         {
             tag:'React',
-            image:'https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.6435-9/205686623_4338709919501705_3283546145783425549_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeFtodFAU3mSXnp4fqOV-YojYcy4IxAcVy1hzLgjEBxXLcR5mgZ6cKjPPVX8CYnsbRjZOrmL8oTsfmO1uiIghU2Y&_nc_ohc=sZt7w-2ZckgAX9nNaDQ&_nc_ht=scontent.fcrk1-1.fna&oh=cd76d2e07926d831b84c151aa27b7bb0&oe=60E5873D',
+            image:ReactApi,
             title:'API Reciept',
             caption:'Api fetching',
             description:'React Fetching data and can search you want to cook',
@@ -154,7 +179,7 @@ export default {
 
         {
             tag:'CodeIgniter',
-            image:'https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.6435-9/211690097_4339449062761124_5621090959229935607_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeGtWk7P-DqtBZwL62V6DSSS_WqWA0HFZ9_9apYDQcVn30cYkBFfUYQkcemNUDWOfBb12Ike-JdsbB-AV4_8ds0m&_nc_ohc=rFoTboBiYyYAX9jb1ow&_nc_ht=scontent.fmnl17-3.fna&oh=b5e397f7484a8f05721e8e237c21467b&oe=60E756CA',
+            image:CI,
             title:'Part 2 Exam in village88',
             caption:'CodeIgniter Register Login ',
             description:'This is exam need to finish in 8hrs with prevent SQL injection and XSS ',
@@ -168,13 +193,13 @@ export default {
 
         {
             tag:'CodeIgniter',
-            image:'https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg',
-            title:'Project 8',
-            caption:'Short Description',
-            description:'This is my project description please fill it in.',
+            image:student_info,
+            title:'Simple Student Information',
+            caption:'Codeigniter',
+            description:'This is my Simple Student Information that create from the scratch to practice codeigniter you can watch link below',
             links:[
-                {link:'http://google.com',icon: <YouTubeIcon />},
-                {link:'https://github.com/migueljamin-dev',icon: <GithubIcon />},
+                {link:'https://www.youtube.com/watch?v=6uBdp_ZxU0Q',icon: <YouTubeIcon />},
+                {link:'https://github.com/migueljamin-dev/Simple-Student-Information',icon: <GithubIcon />},
                  {link:'#',icon: <Language />},
 
             ]
@@ -182,7 +207,7 @@ export default {
 
         {
             tag:'NodeJs',
-            image:'https://scontent.fcrk1-3.fna.fbcdn.net/v/t1.6435-9/210249968_4339476859425011_8081777477655620494_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeGl1QCyUs3kfvefPB6h8vvUweCxJqEKdAvB4LEmoQp0C77cm7hyAliec1vpqb3DPp1hrOy7Wib_6XRWXmtA2ISE&_nc_ohc=eQ7IDPeRIQIAX8K1YWy&_nc_ht=scontent.fcrk1-3.fna&oh=720b67b3ab46f090cd5a26d74d238286&oe=60E6105A',
+            image:NodeSocket,
             title:'Part 3 Exam in village88',
             caption:'NodeJs Express Socket.io',
             description:'This is you can play with other browser or other pc can play draw circle ',
@@ -197,13 +222,13 @@ export default {
         
         {
             tag:'NodeJs',
-            image:'../../assets/images/bg-portfolio.jpg',
-            title:'Project 9',
-            caption:'Short Description',
-            description:'This is my project description please fill it in.',
+            image:crudnodeejs,
+            title:'Nodejs Express MongoDB',
+            caption:'Simple Crud',
+            description:'to practice to use mongoDB and not yet deploy you can watch link below',
             links:[
-                {link:'http://google.com',icon: <YouTubeIcon />},
-                {link:'http://google.com',icon: <GithubIcon />},
+                {link:'https://www.youtube.com/watch?v=OtmiG4XjAEQ',icon: <YouTubeIcon />},
+                {link:'https://github.com/migueljamin-dev/CRUD-Nodejs-mongodb',icon: <GithubIcon />},
                 {link:'http://google.com',icon: <Language />},
 
             ]
